@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Path Predictor</title>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+    <h2>🎓 Career Path Predictor</h2>
+    <form method="post">
+        Subject Interest:
+        <select name="interest">
+            <option>Engineering</option>
+            <option>Commerce</option>
+            <option>Arts</option>
+        </select><br><br>
+
+        Math Score: <input type="number" name="math" required><br><br>
+        Science Score: <input type="number" name="science" required><br><br>
+        Commerce Score: <input type="number" name="commerce" required><br><br>
+        Arts Score: <input type="number" name="arts" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>{{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
