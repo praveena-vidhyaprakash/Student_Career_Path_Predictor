@@ -69,7 +69,4 @@ By experimenting with the dataset and model, you can improve accuracy and explor
 
 ```
 
----
 
-If you want, I can also **add your actual output screenshot** link so it appears exactly like the Travel Interest App README you showed earlier. Do you want me to do that for this repo too?
-```
